@@ -1,5 +1,5 @@
 {
-	"name": "input",
+	"name": "output",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "input",
+				"folderPath": "output",
 				"fileSystem": "sureshcon"
 			},
 			"columnDelimiter": ",",
@@ -18,22 +18,6 @@
 			"firstRowAsHeader": false,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"type": "String"
-			},
-			{
-				"type": "String"
-			},
-			{
-				"type": "String"
-			},
-			{
-				"type": "String"
-			},
-			{
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
