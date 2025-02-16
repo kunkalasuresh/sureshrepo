@@ -1,0 +1,9 @@
+{
+	"name": "kunakaladatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a1abe66d-2e1b-4f9f-8604-87fd7b174274",
+		"tenantId": "a1996026-0115-4240-b351-37db94e59d56"
+	}
+}
